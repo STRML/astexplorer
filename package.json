@@ -86,7 +86,6 @@
     "start": "http-server out",
     "build": "NODE_ENV=production webpack",
     "watch": "webpack -dw",
-    "push": "./scripts/push-site.sh",
-    "test": "ava src/**/__tests__/*-test.js"
+    "push": "./scripts/push-site.sh"
   }
 }
